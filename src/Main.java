@@ -6,7 +6,7 @@ public class Main {
     // static used to Shared by all methods
     // final used to indicate that the value will not change
     private static final String FILE_PATH = "students.csv";
-7
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         GradebookManager manager = new GradebookManager();

@@ -7,7 +7,7 @@ public class Main {
     // final used to indicate that the value will not change
     private static final String FILE_PATH = "students.csv";
 
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         GradebookManager manager = new GradebookManager();
 

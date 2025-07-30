@@ -1,5 +1,5 @@
 import java.util.List;
-import java.util.Scanner
+import java.util.Scanner;
 
 public class Main {
     // A constant string storing the file name/path where student data will be saved and loaded
@@ -90,7 +90,7 @@ public class Main {
                 }
 
                 // Invalid Input
-                default -> System.out.printn("Invalid choice, try again.");
+                default -> System.out.println("Invalid choice, try again.");
                     
             }
         }

@@ -22,6 +22,9 @@ public class Student {
     }
 
     //toCSV
+    public String toCSV() {
+        return studentId + "," + name + "," + grade + "\n";
+    }
 
     @Override
     public String toString() {

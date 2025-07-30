@@ -6,7 +6,7 @@ public class Main {
     // static used to Shared by all methods
     // final used to indicate that the value will not change
     private static final String FILE_PATH = "students.csv";
-
+7
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         GradebookManager manager = new GradebookManager();
@@ -24,7 +24,7 @@ public class Main {
             System.out.println("4. Search By Name");
             System.out.println("5. Show Average Grade And Highest Grade");
             System.out.println("6. Save");
-            System.out.println("Exit");
+            System.out.println("7. Exit");
             System.out.println("Choice: ");
             int choice = sc.nextInt();
             sc.nextLine();
@@ -37,7 +37,7 @@ public class Main {
                     String name = sc.nextLine();
                     System.out.print("Enter Student ID: ");
                     String id = sc.nextLine();
-                    System.out.print("Enter Student Grade; ");
+                    System.out.print("Enter Student Grade: ");
                     double grade = sc.nextDouble();
                     sc.nextLine();
                     manager.addStudent(new Student(name, id, grade));

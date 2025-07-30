@@ -18,7 +18,7 @@ public class GradebookManager {
 
     // Remove a student(by ID)
     public void removeStudent(String studentId) {
-        studentId.remove(studentId);
+        students.remove(studentId);
     }
 
     // Get a All students
@@ -43,7 +43,7 @@ public class GradebookManager {
     public Student highestGrade() {
         return students.values().stream()
                 // Find the student with the highest grade
-                .max(Comprator.compringDouble(Student::getGrade)) // Compares based on grades
+                .max(Comparator.comparingDouble(Student::getGrade)) // Compares based on grades
                 .orElse(null); // Return null if no students exist
     }
 
@@ -98,7 +98,7 @@ public class GradebookManager {
             }
             System.out.println("Data loaded successfully!");
         } catch (IOException e) {
-            System.out.println("Error loading file: " + e.getmessage());
+            System.out.println("Error loading file: " + e.getMessage());
         }
     }
 

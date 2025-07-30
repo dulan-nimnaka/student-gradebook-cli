@@ -34,9 +34,9 @@ It allows you to:
 
 ## **Screenshot**
 
-(`mainscreenshot.png`)
-(`studentscreenshot.png`)
-(`gradebookscreenshot.png`)
+(`/Users/dulannimnaka1/Documents/github/student-gradebook-cli/mainscreenshot.png`)
+(`/Users/dulannimnaka1/Documents/github/student-gradebook-cli/studentscreenshot.png`)
+(`/Users/dulannimnaka1/Documents/github/student-gradebook-cli/gradebookscreenshot.png`)
 
 ---
 

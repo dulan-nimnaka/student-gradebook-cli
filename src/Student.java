@@ -11,13 +11,13 @@ public class Student {
     }
 
     //getters
-    public String getName {
+    public String getName() {
         return name;
     }
-    public String getStudentId {
+    public String getStudentId() {
         return studentId;
     }
-    public double getGrade {
+    public double getGrade() {
         return grade;
     }
 

@@ -32,6 +32,14 @@ It allows you to:
 
 ---
 
+## **Screenshot**
+
+(`mainscreenshot.png`)
+(`studentscreenshot.png`)
+(`gradebookscreenshot.png`)
+
+---
+
 ## **How to Run**
 
 ### **1. Clone the Repository**

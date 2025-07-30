@@ -32,14 +32,6 @@ It allows you to:
 
 ---
 
-## **Screenshot**
-
-(`/Users/dulannimnaka1/Documents/github/student-gradebook-cli/mainscreenshot.png`)
-(`/Users/dulannimnaka1/Documents/github/student-gradebook-cli/studentscreenshot.png`)
-(`/Users/dulannimnaka1/Documents/github/student-gradebook-cli/gradebookscreenshot.png`)
-
----
-
 ## **How to Run**
 
 ### **1. Clone the Repository**
